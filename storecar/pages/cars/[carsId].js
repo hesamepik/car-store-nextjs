@@ -6,6 +6,7 @@ function Cardetails() {
 
   const router=useRouter();
   const { carsId }=router.query;
+  console.log(carsId)
   console.log(router)
   const carDetails = carsData[carsId - 1 ]
 
